@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item
+        android:id="@+id/color"
+        android:title="Color" />
+    <item
+        android:id="@+id/shrink"
+        android:title="Shrink" />
+    <item
+        android:id="@+id/enlarge"
+        android:title="Enlarge" />
+    <item
+        android:id="@+id/reset"
+        android:title="Reset" />
+    <item
+        android:id="@+id/triangle"
+        android:alphabeticShortcut="d"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="2"
+        android:title="Triangle"
+        android:titleCondensed="reset" />
+    <item
+        android:id="@+id/circle"
+        android:title="Circle" />
+    <item
+        android:id="@+id/rectangle"
+        android:title="Rectangle" />
+
+</menu>
